@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="33.39257">
+<testcase classname="Need to verify the Flipcart" name="Get the count of product" time="10.622589">
+<system-out><![CDATA[Given user navigate to website..............................................passed
+When user click on Search field.............................................passed
+And search any mobiles......................................................passed
+Then Get the count of product...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Need to verify the Flipcart" name="Get the count of product 2" time="9.344202">
+<system-out><![CDATA[Given user navigate to website..............................................passed
+When user click on Search field.............................................passed
+And search any shirts.......................................................passed
+Then Get the count of product...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Need to verify the Flipcart" name="Get the count of product" time="13.425779">
+<system-out><![CDATA[Given user navigate to "https://www.amazon.in/".............................passed
+When user search product....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

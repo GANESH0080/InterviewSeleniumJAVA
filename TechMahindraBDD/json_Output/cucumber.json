@@ -1,0 +1,372 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# Created scenario 1 using scenario outline"
+      },
+      {
+        "line": 2,
+        "value": "# Executed 2 cases using scenario outline"
+      },
+      {
+        "line": 3,
+        "value": "# If value is mention in \u003c\u003e then that is Scenario outline"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3233777500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.intialiaze_the_browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 147880600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.maximize_browser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Get the count of product",
+        "description": "",
+        "id": "need-to-verify-the-flipcart;get-the-count-of-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1624363000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.CloseBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 253400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.testcaseverification()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3544634600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigate to website",
+            "match": {
+              "location": "FlipKart.user_navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 475560800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Search field",
+            "match": {
+              "location": "FlipKart.user_click_on_Search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 469797400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "search any mobiles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobiles",
+                  "offset": 11
+                }
+              ],
+              "location": "FlipKart.search_any(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126321700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Get the count of product",
+            "match": {
+              "location": "FlipKart.get_the_count_of_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@flipkart"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1515934700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.intialiaze_the_browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 214028700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.maximize_browser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Get the count of product",
+        "description": "",
+        "id": "need-to-verify-the-flipcart;get-the-count-of-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1635745800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.CloseBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 143500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.testcaseverification()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3569618100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigate to website",
+            "match": {
+              "location": "FlipKart.user_navigate_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 425440100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Search field",
+            "match": {
+              "location": "FlipKart.user_click_on_Search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 636685100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "search any shirts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shirts",
+                  "offset": 11
+                }
+              ],
+              "location": "FlipKart.search_any(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1346605600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Get the count of product",
+            "match": {
+              "location": "FlipKart.get_the_count_of_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@flipkart"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 21,
+            "value": "# Created scenario 2 and using \" \""
+          },
+          {
+            "line": 22,
+            "value": "# \" \" means \" \" value we can pass through Feature file only"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 1566291300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.intialiaze_the_browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 246779700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.maximize_browser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 112700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.amozon_before_hook()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Get the count of product",
+        "description": "",
+        "id": "need-to-verify-the-flipcart;get-the-count-of-product",
+        "after": [
+          {
+            "result": {
+              "duration": 78500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.amozon_after_hook()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1105308000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.CloseBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 65900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipKart.testcaseverification()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5182762300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user navigate to \"https://www.amazon.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.in/",
+                  "offset": 18
+                }
+              ],
+              "location": "FlipKart.user_navigate_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5324380700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user search product",
+            "match": {
+              "location": "FlipKart.user_search_product()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Need to verify the Flipcart",
+    "description": "",
+    "id": "need-to-verify-the-flipcart",
+    "keyword": "Feature",
+    "uri": "flipKart.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@flipkart"
+      }
+    ]
+  }
+]
